@@ -56,5 +56,5 @@ Navigate to `http://localhost:3000` to interact with the platform.
 ---
 
 ### 🗺️ Project Status
-For a detailed look at implemented features and our development timeline, please refer to the [ROADMAP.md](./ROADMAP.md).
+For a detailed look at implemented features and our development timeline, please refer to the [ROADMAP.md](./roadmap.md).
 
