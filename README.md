@@ -1,4 +1,5 @@
-# Project File link https://drive.google.com/drive/folders/10IZP7_JprinN3a7pV_mVrmIzMs3wjbQX?usp=drive_link
+# Project File link: https://drive.google.com/drive/folders/10IZP7_JprinN3a7pV_mVrmIzMs3wjbQX?usp=drive_link
+
 # Hackathon-Project---TrashTrail-Waste-Accountability-Tracking-System
 🌿 TrashTrail — An end-to-end waste accountability system using Next.js, Gemini AI, and MongoDB to track waste from dustbin to destination.
 
