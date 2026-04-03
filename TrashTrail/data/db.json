@@ -1,0 +1,1034 @@
+{
+  "users": [
+    {
+      "_id": "admin-1",
+      "id": "admin-1",
+      "name": "Hackathon Admin",
+      "email": "admin@trashtrail.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "admin",
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "citizen-1",
+      "id": "citizen-1",
+      "name": "Citizen 1",
+      "email": "citizen1@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 2",
+      "greenScore": 358,
+      "totalWasteRecycled": 13,
+      "carbonSaved": 104,
+      "createdAt": "2026-03-24T20:33:08.170Z"
+    },
+    {
+      "_id": "citizen-2",
+      "id": "citizen-2",
+      "name": "Citizen 2",
+      "email": "citizen2@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 2",
+      "greenScore": 425,
+      "totalWasteRecycled": 23,
+      "carbonSaved": 40,
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "citizen-3",
+      "id": "citizen-3",
+      "name": "Citizen 3",
+      "email": "citizen3@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 4",
+      "greenScore": 244,
+      "totalWasteRecycled": 76,
+      "carbonSaved": 110,
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "citizen-4",
+      "id": "citizen-4",
+      "name": "Citizen 4",
+      "email": "citizen4@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 3",
+      "greenScore": 387,
+      "totalWasteRecycled": 12,
+      "carbonSaved": 155,
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "citizen-5",
+      "id": "citizen-5",
+      "name": "Citizen 5",
+      "email": "citizen5@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 2",
+      "greenScore": 252,
+      "totalWasteRecycled": 44,
+      "carbonSaved": 11,
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "citizen-6",
+      "id": "citizen-6",
+      "name": "Citizen 6",
+      "email": "citizen6@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 5",
+      "greenScore": 270,
+      "totalWasteRecycled": 6,
+      "carbonSaved": 59,
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "citizen-7",
+      "id": "citizen-7",
+      "name": "Citizen 7",
+      "email": "citizen7@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 4",
+      "greenScore": 264,
+      "totalWasteRecycled": 86,
+      "carbonSaved": 69,
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "citizen-8",
+      "id": "citizen-8",
+      "name": "Citizen 8",
+      "email": "citizen8@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 5",
+      "greenScore": 304,
+      "totalWasteRecycled": 49,
+      "carbonSaved": 66,
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "citizen-9",
+      "id": "citizen-9",
+      "name": "Citizen 9",
+      "email": "citizen9@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 4",
+      "greenScore": 167,
+      "totalWasteRecycled": 16,
+      "carbonSaved": 123,
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "citizen-10",
+      "id": "citizen-10",
+      "name": "Citizen 10",
+      "email": "citizen10@example.com",
+      "password": "$2a$10$CtBNUB6iVAHjPgQVr.pWAO46FEBocvrf.q8cyCNfOUtQFvjbZQy9a",
+      "role": "citizen",
+      "ward": "Ward 3",
+      "greenScore": 106,
+      "totalWasteRecycled": 60,
+      "carbonSaved": 83,
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "1774385871697",
+      "id": "1774385871697",
+      "name": "Pratik",
+      "email": "pratikpisalpp88@gmail.com",
+      "password": "$2a$10$oWYgrW0EyxHIaFlbs.GqJe9byga8HnxprSsBCwaqVMLY.T8uobb3i",
+      "role": "citizen",
+      "phone": "9321775733",
+      "address": "",
+      "ward": "sector 7",
+      "createdAt": "2026-03-24T20:57:51.697Z",
+      "updatedAt": "2026-03-25T05:27:41.879Z",
+      "greenScore": 230,
+      "totalWasteRecycled": 25.8,
+      "carbonSaved": 12.9
+    },
+    {
+      "_id": "1774388492377",
+      "id": "1774388492377",
+      "name": "Raman yadav",
+      "email": "ydvraman555@gmail.com",
+      "password": "$2a$10$ehsT4Z9a0D83ltrgXa6ZoOMh3OpJmUMA9e6szaa60VjU4L3gmvQqO",
+      "role": "collector",
+      "phone": "9594468275",
+      "address": "",
+      "ward": "Sector7 ghansoli",
+      "createdAt": "2026-03-24T21:41:32.377Z",
+      "updatedAt": "2026-03-24T21:41:32.377Z"
+    },
+    {
+      "_id": "1774389938719",
+      "id": "1774389938720",
+      "name": "Omkar ",
+      "email": "omkarpatil@gmail.com",
+      "password": "$2a$10$AsVdadkSHV0nag9g.NGGcOqhweCqyukc70FSGIVEi7VjVVHF3.6/2",
+      "role": "collector",
+      "phone": "8228453678",
+      "address": "",
+      "ward": "Sector 12",
+      "createdAt": "2026-03-24T22:05:38.720Z",
+      "updatedAt": "2026-03-24T22:05:38.720Z"
+    },
+    {
+      "_id": "1774391643724",
+      "id": "1774391643724",
+      "name": "Krishna Paswan ",
+      "email": "kpaswan9999@gmail.com",
+      "password": "$2a$10$TobaA1eBfJx8IlrchAV3zOYbzd6.ZvKc2YMmf0BMQQ82KDmX0EaVK",
+      "role": "collector",
+      "phone": "7523458695",
+      "address": "",
+      "ward": "Sector 42",
+      "createdAt": "2026-03-24T22:34:03.724Z",
+      "updatedAt": "2026-03-24T22:34:03.724Z"
+    },
+    {
+      "_id": "1774394647346",
+      "id": "1774394647346",
+      "name": "Raman",
+      "email": "ydvraman55@gmail.com",
+      "password": "$2a$10$TB59y3nlRQ.XYnNYL8F6..14VLptmzqaSHlRciTFEK.1xeJJFF9nC",
+      "role": "collector",
+      "phone": "7585456528",
+      "address": "",
+      "ward": "Sector 34",
+      "createdAt": "2026-03-24T23:24:07.346Z",
+      "updatedAt": "2026-03-24T23:24:07.346Z"
+    },
+    {
+      "_id": "1774416226076",
+      "id": "1774416226076",
+      "name": "Krishna ",
+      "email": "kri884161@gmail.com",
+      "password": "$2a$10$1G2iq50x/jVANHQf2vG0U.29qpPLm9kXfCMEa6IRkyiIeC2/1.G3.",
+      "role": "collector",
+      "phone": "8291737832",
+      "address": "",
+      "ward": "5",
+      "createdAt": "2026-03-25T05:23:46.076Z",
+      "updatedAt": "2026-03-25T05:23:46.076Z"
+    },
+    {
+      "_id": "1774429737567",
+      "id": "1774429737567",
+      "name": "Suhani",
+      "email": "suhani8841@gmail.com",
+      "password": "$2a$10$sM.jWxsrvp6.eApQ/3odquVcCTDgnEk8uHoQtEX1MLmpLVr6lwiGS",
+      "role": "citizen",
+      "phone": "9930574978",
+      "address": "",
+      "ward": "8",
+      "createdAt": "2026-03-25T09:08:57.567Z",
+      "updatedAt": "2026-03-25T09:10:24.206Z",
+      "greenScore": 10
+    },
+    {
+      "_id": "1774434481947",
+      "id": "1774434481947",
+      "name": "Pratik Pisal",
+      "email": "pratikpisal88@gmail.com",
+      "password": "$2a$10$c.NksQdICW89H37LiR3qwO5tB25SXK9ixkinNx7yk/TQW16Q97/Mm",
+      "role": "citizen",
+      "phone": "9321775733",
+      "address": "",
+      "ward": "sector 12",
+      "createdAt": "2026-03-25T10:28:01.947Z",
+      "updatedAt": "2026-03-26T11:50:41.208Z",
+      "greenScore": 90,
+      "totalWasteRecycled": 12,
+      "carbonSaved": 6
+    },
+    {
+      "_id": "1774438544139",
+      "id": "1774438544139",
+      "name": "Raman Yadav ",
+      "email": "ramanydv336@gmail.com",
+      "password": "$2a$10$.nClm.meE94Iv5PKPs54l.nR3N5U19DykavdMK70Vral1qVRQDidi",
+      "role": "collector",
+      "phone": "981924796",
+      "address": "",
+      "ward": "Sector 12 ",
+      "createdAt": "2026-03-25T11:35:44.139Z",
+      "updatedAt": "2026-03-25T11:35:44.139Z"
+    },
+    {
+      "_id": "1774525200593",
+      "id": "1774525200593",
+      "name": "Sneha",
+      "email": "snehasawant@gmail.com",
+      "password": "$2a$10$GVHGhLuMTv0.nV0qyBtyDO2a0zuTt4Zv8jC67CVunkNpnm.LqdkE2",
+      "role": "collector",
+      "phone": "7498646780",
+      "address": "",
+      "ward": "Sec 12",
+      "createdAt": "2026-03-26T11:40:00.593Z",
+      "updatedAt": "2026-03-26T11:40:00.593Z"
+    },
+    {
+      "_id": "1774525276659",
+      "id": "1774525276659",
+      "name": "Sneha",
+      "email": "sneha@gmail.com",
+      "password": "$2a$10$DF/CWkns9cCYWsRk1uGOTewJ0AlpcyCsbu700ZsgHdPNEg9SUXF0y",
+      "role": "collector",
+      "phone": "785412369",
+      "address": "",
+      "ward": "Sec 12",
+      "createdAt": "2026-03-26T11:41:16.659Z",
+      "updatedAt": "2026-03-26T11:41:16.659Z"
+    }
+  ],
+  "wastebags": [
+    {
+      "_id": "bag-1",
+      "qrCode": "TT-2025-10000",
+      "citizenId": "citizen-2",
+      "wasteType": "mixed",
+      "weightAtSource": 10,
+      "status": "collected",
+      "anomalyFlag": true,
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-2",
+          "timestamp": "2026-03-24T20:33:08.171Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "bag-2",
+      "qrCode": "TT-2025-10001",
+      "citizenId": "citizen-8",
+      "wasteType": "mixed",
+      "weightAtSource": 4,
+      "status": "collected",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-8",
+          "timestamp": "2026-03-24T20:33:08.171Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.171Z"
+    },
+    {
+      "_id": "bag-3",
+      "qrCode": "TT-2025-10002",
+      "citizenId": "citizen-3",
+      "wasteType": "dry",
+      "weightAtSource": 7,
+      "status": "recycled",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-3",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-4",
+      "qrCode": "TT-2025-10003",
+      "citizenId": "citizen-7",
+      "wasteType": "mixed",
+      "weightAtSource": 1,
+      "status": "in_transit",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-7",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-5",
+      "qrCode": "TT-2025-10004",
+      "citizenId": "citizen-2",
+      "wasteType": "hazardous",
+      "weightAtSource": 3,
+      "status": "collected",
+      "anomalyFlag": true,
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-2",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-6",
+      "qrCode": "TT-2025-10005",
+      "citizenId": "citizen-3",
+      "wasteType": "wet",
+      "weightAtSource": 4,
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-3",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-7",
+      "qrCode": "TT-2025-10006",
+      "citizenId": "citizen-6",
+      "wasteType": "dry",
+      "weightAtSource": 3,
+      "status": "in_transit",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-6",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-8",
+      "qrCode": "TT-2025-10007",
+      "citizenId": "citizen-2",
+      "wasteType": "wet",
+      "weightAtSource": 2,
+      "status": "in_transit",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-2",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-9",
+      "qrCode": "TT-2025-10008",
+      "citizenId": "citizen-6",
+      "wasteType": "mixed",
+      "weightAtSource": 8,
+      "status": "collected",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-6",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-10",
+      "qrCode": "TT-2025-10009",
+      "citizenId": "citizen-10",
+      "wasteType": "mixed",
+      "weightAtSource": 7,
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-10",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-11",
+      "qrCode": "TT-2025-10010",
+      "citizenId": "citizen-5",
+      "wasteType": "mixed",
+      "weightAtSource": 1,
+      "status": "in_transit",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-5",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-12",
+      "qrCode": "TT-2025-10011",
+      "citizenId": "citizen-7",
+      "wasteType": "mixed",
+      "weightAtSource": 1,
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-7",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-13",
+      "qrCode": "TT-2025-10012",
+      "citizenId": "citizen-1",
+      "wasteType": "mixed",
+      "weightAtSource": 2,
+      "status": "recycled",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-1",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-14",
+      "qrCode": "TT-2025-10013",
+      "citizenId": "citizen-1",
+      "wasteType": "wet",
+      "weightAtSource": 9,
+      "status": "in_transit",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-1",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "bag-15",
+      "qrCode": "TT-2025-10014",
+      "citizenId": "citizen-10",
+      "wasteType": "wet",
+      "weightAtSource": 4,
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Initial registration",
+          "updatedBy": "citizen-10",
+          "timestamp": "2026-03-24T20:33:08.172Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:33:08.172Z"
+    },
+    {
+      "_id": "1774385981723",
+      "qrCode": "TT-2025-18061",
+      "citizenId": "1774385871697",
+      "wasteType": "dry",
+      "weightAtSource": 10,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T20:59:41.719Z"
+        }
+      ],
+      "createdAt": "2026-03-24T20:59:41.723Z",
+      "updatedAt": "2026-03-24T20:59:41.723Z"
+    },
+    {
+      "_id": "1774386152703",
+      "qrCode": "TT-2025-97174",
+      "citizenId": "1774385871697",
+      "wasteType": "wet",
+      "weightAtSource": 14.6,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T21:02:32.701Z"
+        }
+      ],
+      "createdAt": "2026-03-24T21:02:32.703Z",
+      "updatedAt": "2026-03-24T21:02:32.703Z"
+    },
+    {
+      "_id": "1774388559281",
+      "qrCode": "TT-2025-23677",
+      "citizenId": "1774385871697",
+      "wasteType": "hazardous",
+      "weightAtSource": 14.8,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T21:42:39.279Z"
+        }
+      ],
+      "createdAt": "2026-03-24T21:42:39.281Z",
+      "updatedAt": "2026-03-24T21:42:39.281Z"
+    },
+    {
+      "_id": "1774389742277",
+      "qrCode": "TT-2025-18295",
+      "citizenId": "1774385871697",
+      "wasteType": "dry",
+      "weightAtSource": 1,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T22:02:22.274Z"
+        }
+      ],
+      "createdAt": "2026-03-24T22:02:22.277Z",
+      "updatedAt": "2026-03-24T22:02:22.277Z"
+    },
+    {
+      "_id": "1774391683724",
+      "qrCode": "TT-2025-65594",
+      "citizenId": "1774385871697",
+      "wasteType": "mixed",
+      "weightAtSource": 19.9,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T22:34:43.724Z"
+        }
+      ],
+      "createdAt": "2026-03-24T22:34:43.725Z",
+      "updatedAt": "2026-03-24T22:34:43.725Z"
+    },
+    {
+      "_id": "1774393805825",
+      "qrCode": "TT-2025-69618",
+      "citizenId": "1774385871697",
+      "wasteType": "mixed",
+      "weightAtSource": 11.9,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T23:10:05.820Z"
+        }
+      ],
+      "createdAt": "2026-03-24T23:10:05.825Z",
+      "updatedAt": "2026-03-24T23:10:05.825Z"
+    },
+    {
+      "_id": "1774394357339",
+      "qrCode": "TT-2025-19776",
+      "citizenId": "1774385871697",
+      "wasteType": "mixed",
+      "weightAtSource": 13.9,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T23:19:17.338Z"
+        }
+      ],
+      "createdAt": "2026-03-24T23:19:17.339Z",
+      "updatedAt": "2026-03-24T23:19:17.339Z"
+    },
+    {
+      "_id": "1774395027959",
+      "qrCode": "TT-2025-31279",
+      "citizenId": "1774385871697",
+      "wasteType": "wet",
+      "weightAtSource": 13.7,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T23:30:27.959Z"
+        }
+      ],
+      "createdAt": "2026-03-24T23:30:27.959Z",
+      "updatedAt": "2026-03-24T23:30:27.959Z"
+    },
+    {
+      "_id": "1774395554119",
+      "qrCode": "TT-2025-83568",
+      "citizenId": "1774385871697",
+      "wasteType": "mixed",
+      "weightAtSource": 1.9,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T23:39:14.113Z"
+        }
+      ],
+      "createdAt": "2026-03-24T23:39:14.119Z",
+      "updatedAt": "2026-03-24T23:39:14.119Z"
+    },
+    {
+      "_id": "1774396178437",
+      "qrCode": "TT-2025-69918",
+      "citizenId": "1774385871697",
+      "wasteType": "wet",
+      "weightAtSource": 3.8,
+      "photoUrl": "temp-url",
+      "status": "recycled",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-24T23:49:38.433Z"
+        },
+        {
+          "status": "collected",
+          "note": "Picked up by collector",
+          "updatedBy": "1774394647346",
+          "location": {
+            "lat": 19.1542527,
+            "lng": 73.0480911
+          },
+          "timestamp": "2026-03-24T23:50:45.339Z"
+        },
+        {
+          "status": "processed",
+          "note": "Material decentralized and ready for reclamation",
+          "updatedBy": "admin-1",
+          "location": null,
+          "timestamp": "2026-03-25T01:02:12.518Z"
+        },
+        {
+          "status": "recycled",
+          "note": "Node successfully converted to raw sustainable materials",
+          "updatedBy": "admin-1",
+          "location": null,
+          "timestamp": "2026-03-25T01:02:24.230Z"
+        }
+      ],
+      "createdAt": "2026-03-24T23:49:38.437Z",
+      "updatedAt": "2026-03-25T01:02:24.230Z",
+      "collectorId": "1774394647346",
+      "weightAtCollection": 3.8
+    },
+    {
+      "_id": "1774399599520",
+      "qrCode": "TT-2025-11861",
+      "citizenId": "1774385871697",
+      "wasteType": "wet",
+      "weightAtSource": 11.9,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-25T00:46:39.519Z"
+        }
+      ],
+      "createdAt": "2026-03-25T00:46:39.520Z",
+      "updatedAt": "2026-03-25T00:46:39.520Z"
+    },
+    {
+      "_id": "1774415589802",
+      "qrCode": "TT-2025-30058",
+      "citizenId": "1774385871697",
+      "wasteType": "wet",
+      "weightAtSource": 0.4,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-25T05:13:09.802Z"
+        }
+      ],
+      "createdAt": "2026-03-25T05:13:09.802Z",
+      "updatedAt": "2026-03-25T05:13:09.802Z"
+    },
+    {
+      "_id": "1774416309799",
+      "qrCode": "TT-2025-27068",
+      "citizenId": "1774385871697",
+      "wasteType": "hazardous",
+      "weightAtSource": 21.9,
+      "photoUrl": "temp-url",
+      "status": "recycled",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774385871697",
+          "timestamp": "2026-03-25T05:25:09.795Z"
+        },
+        {
+          "status": "collected",
+          "note": "Picked up by collector",
+          "updatedBy": "1774416226076",
+          "location": {
+            "lat": 19.0666552,
+            "lng": 72.8587128
+          },
+          "timestamp": "2026-03-25T05:25:34.468Z"
+        },
+        {
+          "status": "processed",
+          "note": "Material decentralized and ready for reclamation",
+          "updatedBy": "admin-1",
+          "location": null,
+          "timestamp": "2026-03-25T05:27:31.097Z"
+        },
+        {
+          "status": "recycled",
+          "note": "Node successfully converted to raw sustainable materials",
+          "updatedBy": "admin-1",
+          "location": null,
+          "timestamp": "2026-03-25T05:27:41.885Z"
+        }
+      ],
+      "createdAt": "2026-03-25T05:25:09.799Z",
+      "updatedAt": "2026-03-25T05:27:41.886Z",
+      "collectorId": "1774416226076",
+      "weightAtCollection": 22
+    },
+    {
+      "_id": "1774429824196",
+      "qrCode": "TT-2025-44972",
+      "citizenId": "1774429737567",
+      "wasteType": "dry",
+      "weightAtSource": 5,
+      "photoUrl": "temp-url",
+      "status": "collected",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774429737567",
+          "timestamp": "2026-03-25T09:10:24.193Z"
+        },
+        {
+          "status": "collected",
+          "note": "Picked up by collector",
+          "updatedBy": "1774416226076",
+          "location": {
+            "lat": 19.0671158,
+            "lng": 72.8569019
+          },
+          "timestamp": "2026-03-25T09:13:59.004Z"
+        }
+      ],
+      "createdAt": "2026-03-25T09:10:24.196Z",
+      "updatedAt": "2026-03-25T09:13:59.005Z",
+      "collectorId": "1774416226076",
+      "weightAtCollection": 5
+    },
+    {
+      "_id": "1774438478718",
+      "qrCode": "TT-2025-91363",
+      "citizenId": "1774434481947",
+      "wasteType": "wet",
+      "weightAtSource": 11.8,
+      "photoUrl": "temp-url",
+      "status": "recycled",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774434481947",
+          "timestamp": "2026-03-25T11:34:38.711Z"
+        },
+        {
+          "status": "collected",
+          "note": "Picked up by collector",
+          "updatedBy": "1774438544139",
+          "location": {
+            "lat": 19.0665766,
+            "lng": 72.8585706
+          },
+          "timestamp": "2026-03-25T11:37:50.086Z"
+        },
+        {
+          "status": "processed",
+          "note": "Material decentralized and ready for reclamation",
+          "updatedBy": "admin-1",
+          "location": null,
+          "timestamp": "2026-03-26T11:50:26.017Z"
+        },
+        {
+          "status": "recycled",
+          "note": "Node successfully converted to raw sustainable materials",
+          "updatedBy": "admin-1",
+          "location": null,
+          "timestamp": "2026-03-26T11:50:41.212Z"
+        }
+      ],
+      "createdAt": "2026-03-25T11:34:38.719Z",
+      "updatedAt": "2026-03-26T11:50:41.213Z",
+      "collectorId": "1774438544139",
+      "weightAtCollection": 12
+    },
+    {
+      "_id": "1774440025845",
+      "qrCode": "TT-2025-86055",
+      "citizenId": "1774434481947",
+      "wasteType": "hazardous",
+      "weightAtSource": 11.9,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774434481947",
+          "timestamp": "2026-03-25T12:00:25.843Z"
+        }
+      ],
+      "createdAt": "2026-03-25T12:00:25.845Z",
+      "updatedAt": "2026-03-25T12:00:25.845Z"
+    },
+    {
+      "_id": "1774524954018",
+      "qrCode": "TT-2025-14329",
+      "citizenId": "1774434481947",
+      "wasteType": "wet",
+      "weightAtSource": 1.8,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774434481947",
+          "timestamp": "2026-03-26T11:35:54.014Z"
+        }
+      ],
+      "createdAt": "2026-03-26T11:35:54.019Z",
+      "updatedAt": "2026-03-26T11:35:54.019Z"
+    },
+    {
+      "_id": "1774525383391",
+      "qrCode": "TT-2025-82727",
+      "citizenId": "1774434481947",
+      "wasteType": "mixed",
+      "weightAtSource": 11.8,
+      "photoUrl": "temp-url",
+      "status": "created",
+      "timeline": [
+        {
+          "status": "created",
+          "note": "Waste bag registered by citizen",
+          "updatedBy": "1774434481947",
+          "timestamp": "2026-03-26T11:43:03.390Z"
+        }
+      ],
+      "createdAt": "2026-03-26T11:43:03.391Z",
+      "updatedAt": "2026-03-26T11:43:03.391Z"
+    }
+  ],
+  "anomalies": [
+    {
+      "_id": "anomaly-3",
+      "wasteBagId": "bag-6",
+      "type": "missed_pickup",
+      "description": "Automatic System Alert: Bag registered > 12 hours ago with zero collection activity recorded.",
+      "severity": "medium",
+      "status": "resolved",
+      "collectorId": "admin-1",
+      "createdAt": "2026-03-25T10:00:00.000Z",
+      "updatedAt": "2026-03-25T05:40:02.692Z"
+    },
+    {
+      "_id": "anomaly-2",
+      "wasteBagId": "bag-5",
+      "type": "route_deviation",
+      "description": "Trajectory Drift: Vehicle deviation detected. Package scanned 3.2km outside authorized ward boundary.",
+      "severity": "medium",
+      "status": "resolved",
+      "collectorId": "1774391643724",
+      "createdAt": "2026-03-25T09:12:30.000Z",
+      "updatedAt": "2026-03-26T11:52:31.242Z"
+    },
+    {
+      "_id": "anomaly-1",
+      "wasteBagId": "bag-1",
+      "type": "weight_mismatch",
+      "description": "Critical Weight Variance: Source reported 10kg, Collector scanned 4.2kg. (58% Loss detected at pickup)",
+      "severity": "high",
+      "status": "resolved",
+      "collectorId": "1774388492377",
+      "createdAt": "2026-03-25T08:30:45.000Z",
+      "updatedAt": "2026-03-26T11:52:38.055Z"
+    }
+  ],
+  "complaints": [
+    {
+      "_id": "1774416656436",
+      "citizenId": "1774385871697",
+      "type": "missed_pickup",
+      "description": "very bad",
+      "ward": "Ward 42 (Auto)",
+      "location": {
+        "lat": 19.066097,
+        "lng": 72.85891
+      },
+      "status": "open",
+      "createdAt": "2026-03-25T05:30:56.436Z"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #050505;
+  --bg-secondary: #0A0A0A;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --border: rgba(255, 255, 255, 0.08);
+  --emerald: #10B981;
+  --amber: #F59E0B;
+  --indigo: #6366F1;
+  --cyan: #06B6D4;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Moving Grid Background */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(circle at center, black, transparent 80%);
+}
+
+.bg-grid-animate {
+  animation: move-grid 20s linear infinite;
+}
+
+@keyframes move-grid {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(40px);
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-2xl border border-white/[0.08];
+  }
+
+  .glass-emerald {
+    @apply bg-emerald-500/[0.05] border-emerald-500/20 backdrop-blur-xl;
+  }
+
+  .glass-indigo {
+    @apply bg-indigo-500/[0.05] border-indigo-500/20 backdrop-blur-xl;
+  }
+
+  .glass-amber {
+    @apply bg-amber-500/[0.05] border-amber-500/20 backdrop-blur-xl;
+  }
+
+  .premium-shadow {
+    box-shadow: 0 0 50px -12px rgba(0, 0, 0, 0.5);
+  }
+
+  .glow-emerald {
+    box-shadow: 0 0 30px -10px rgba(16, 185, 129, 0.5);
+  }
+
+  .glow-indigo {
+    box-shadow: 0 0 30px -10px rgba(99, 102, 241, 0.5);
+  }
+}
+
+/* Animations */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes float-slow {
+
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  33% {
+    transform: translate(10px, -15px);
+  }
+
+  66% {
+    transform: translate(-10px, 10px);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+}
+
+/* Custom Text Gradient */
+.text-gradient-emerald {
+  @apply bg-gradient-to-br from-white via-emerald-100 to-emerald-500 bg-clip-text text-transparent;
+}
+
+.text-gradient-indigo {
+  @apply bg-gradient-to-br from-white via-indigo-100 to-indigo-500 bg-clip-text text-transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--emerald);
+  border-radius: 3px;
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl;
+  }
+
+  .glass-card-hover {
+    @apply hover:bg-white/[0.08] hover:border-white/20 transition-all duration-300;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent;
+  }
+
+  .glow-emerald {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+  }
+
+  .glow-amber {
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+  }
+
+  .glow-indigo {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+  }
+
+  .dark-input {
+    @apply bg-white/5 border border-white/10 text-white placeholder-gray-500 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 focus:outline-none rounded-xl px-4 py-3 transition-all duration-300;
+  }
+
+  .status-created {
+    @apply bg-gray-500/20 text-gray-400 px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .status-collected {
+    @apply bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .status-in-transit {
+    @apply bg-amber-500/20 text-amber-400 px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .status-at-facility {
+    @apply bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .status-processed {
+    @apply bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .status-recycled {
+    @apply bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full text-xs font-medium;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(16, 185, 129, 0.5);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scan {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: 100%;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.animate-scan {
+  animation: scan 3s linear infinite;
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.5s ease-out forwards;
+}
+
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.smooth-transition {
+  @apply transition-all duration-500 ease-in-out;
+}
+
+.page-stable {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
