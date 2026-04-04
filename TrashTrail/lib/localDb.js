@@ -16,6 +16,7 @@ const localDb = {
     },
     async findById(id) {
       await connectDB();
+      if (!id) return null;
       return await User.findById(id).lean();
     },
     async create(userData) {
@@ -38,6 +39,7 @@ const localDb = {
     },
     async findById(id) {
       await connectDB();
+      if (!id) return null;
       return await WasteBag.findById(id).lean();
     },
     async create(bagData) {
