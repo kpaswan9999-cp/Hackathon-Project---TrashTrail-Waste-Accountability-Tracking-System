@@ -9,11 +9,11 @@ services:
       - key: NODE_ENV
         value: production
       - key: MONGODB_URI
-        sync: false
+        value: "mongodb+srv://kpaswan9999_db_use:nVUndkVjnRVLJdD5@cluster0.ibkn9sw.mongodb.net/?appName=Cluster0"
       - key: NEXTAUTH_SECRET
-        sync: false
+        value: "7caeb453e970a0e3868ac1cd86f34567"
       - key: NEXTAUTH_URL
-        sync: false
+        value: "https://hackathon-project-trashtrail-waste-36ke.onrender.com"
       - key: GEMINI_API_KEY
         sync: false
       - key: CLOUDINARY_CLOUD_NAME
