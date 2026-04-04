@@ -12,7 +12,8 @@ const localDb = {
     },
     async findOne(query) {
       await connectDB();
-      return await User.findOne(query).lean();
+      // Using .select('+password') to include password for authentication
+      return await User.findOne(query).select('+password').lean();
     },
     async findById(id) {
       await connectDB();
