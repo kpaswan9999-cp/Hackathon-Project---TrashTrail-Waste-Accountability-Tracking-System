@@ -1,7 +1,0 @@
-{
-  "buildCommand": "cd TrashTrail && npm install && npm run build",
-  "outputDirectory": "TrashTrail/.next",
-  "installCommand": "cd TrashTrail && npm install",
-  "framework": "nextjs",
-  "devCommand": "cd TrashTrail && npm run dev"
-}
