@@ -1,4 +1,4 @@
-# Live link:trash-trail-waste.vercel.app
+# Live link: https://trash-trail-waste.vercel.app
 # Hackathon-Project---TrashTrail-Waste-Accountability-Tracking-System
 🌿 TrashTrail — An end-to-end waste accountability system using Next.js, Gemini AI, and MongoDB to track waste from dustbin to destination.
 
